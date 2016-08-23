@@ -1,4 +1,4 @@
-# Dockerfile: thedcg/tl
+# Dockerfile: thedcg/tl:latest
 
 # ベース
 FROM ubuntu:latest
