@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl:devel
+
+# ベース
+FROM ubuntu:devel
+

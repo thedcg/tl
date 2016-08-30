@@ -1,7 +1,11 @@
+################################
 # Dockerfile: thedcg/tl:latest
 
 # ベース
 FROM ubuntu:latest
+
+################################
+# Dockerfile.common
 
 # 管理者
 MAINTAINER Lemures Lemniscati <lemures.lemniscati@gmail.com>
