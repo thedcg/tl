@@ -8,7 +8,7 @@
 all: dockerfiles
 
 
-TAGS=latest devel
+TAGS=devel latest 14.04 12.04
 
 dockerfiles:
 	for TAG in $(TAGS); do \
