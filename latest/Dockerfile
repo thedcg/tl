@@ -18,6 +18,6 @@ RUN apt-get -y upgrade
 RUN apt-get -y install make
 RUN apt-get -y install git openssh-client
 RUN apt-get -y install xz-utils
-RUN apt-get -y install tex-common latex-cjk-all texlive-lang-cjk texlive-science
+RUN apt-get -y install tex-common latex-cjk-all texlive-lang-cjk texlive-latex-extra texlive-science
 
 # 終了
