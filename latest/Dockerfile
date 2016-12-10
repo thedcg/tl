@@ -11,16 +11,22 @@ FROM ubuntu:latest
 MAINTAINER Lemures Lemniscati <lemures.lemniscati@gmail.com>
 
 # アップデート
-RUN apt-get update
-RUN apt-get -y upgrade
-
-# パッケージ
-RUN apt-get -y install make
-RUN apt-get -y install git openssh-client
-RUN apt-get -y install xz-utils
-RUN apt-get -y install tex-common \
-  latex-cjk-all texlive-lang-cjk \
-  texlive-latex-extra texlive-science \
-  texlive-fonts-recommended texlive-fonts-extra
+RUN apt-get update\
+ && apt-get -y upgrade\
+ && apt-get -y install\
+  make\
+  git\
+  openssh-client\
+  xz-utils\
+  tex-common\
+  latex-cjk-all\
+  texlive-lang-cjk\
+  texlive-latex-extra\
+  texlive-science\
+  texlive-fonts-recommended\
+  texlive-fonts-extra\
+  texlive-metapost\
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*\
 
 # 終了
