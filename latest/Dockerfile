@@ -26,6 +26,7 @@ RUN apt-get update\
   texlive-fonts-recommended\
   texlive-fonts-extra\
   texlive-metapost\
+  asymptote\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
 
