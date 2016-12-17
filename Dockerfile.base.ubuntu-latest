@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/tl:latest
+# Dockerfile: thedcg/tl-ubuntu:latest
 
 # ベース
 FROM ubuntu:latest

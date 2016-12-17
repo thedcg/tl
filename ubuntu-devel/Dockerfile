@@ -1,8 +1,8 @@
 ################################
-# Dockerfile: thedcg/tl:14.04
+# Dockerfile: thedcg/tl-ubuntu:devel
 
 # ベース
-FROM ubuntu:14.04
+FROM ubuntu:devel
 
 ################################
 # Dockerfile.common

@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/tl:devel
+# Dockerfile: thedcg/tl-ubuntu:devel
 
 # ベース
 FROM ubuntu:devel

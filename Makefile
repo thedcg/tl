@@ -8,7 +8,7 @@
 all: dockerfiles
 
 
-TAGS=devel latest 14.04 16.10
+TAGS=ubuntu-devel ubuntu-latest ubuntu-14.04 ubuntu-16.10
 
 dockerfiles:
 	for TAG in $(TAGS); do \

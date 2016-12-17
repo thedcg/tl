@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/tl:14.04
+# Dockerfile: thedcg/tl-ubuntu:14.04
 
 # ベース
 FROM ubuntu:14.04

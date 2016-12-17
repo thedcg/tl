@@ -1,8 +1,8 @@
 ################################
-# Dockerfile: thedcg/tl:devel
+# Dockerfile: thedcg/tl-ubuntu:latest
 
 # ベース
-FROM ubuntu:devel
+FROM ubuntu:latest
 
 ################################
 # Dockerfile.common

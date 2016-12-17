@@ -1,8 +1,8 @@
 ################################
-# Dockerfile: thedcg/tl:latest
+# Dockerfile: thedcg/tl-ubuntu:14.04
 
 # ベース
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 ################################
 # Dockerfile.common

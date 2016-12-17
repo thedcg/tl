@@ -1,5 +1,5 @@
 ################################
-# Dockerfile: thedcg/tl:16.10
+# Dockerfile: thedcg/tl-ubuntu:16.10
 
 # ベース
 FROM ubuntu:16.10
