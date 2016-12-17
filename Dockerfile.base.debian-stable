@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-debian:stable
+
+# ベース
+FROM debian:stable
+

@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-debian:unstable
+
+# ベース
+FROM debian:unstable
+

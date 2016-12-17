@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-debian:latest
+
+# ベース
+FROM debian:latest
+
