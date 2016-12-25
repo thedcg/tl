@@ -1,11 +1,13 @@
 # thedcg/tl
 
-## thedcg/tl-ubuntu:devel
-## thedcg/tl-ubuntu:latest
-## thedcg/tl-ubuntu:16.10
-## thedcg/tl-ubuntu:14.04
+## thedcg/tl-ubuntu
+### devel
+### latest
+### 16.10
+### 14.04
 
-## thedcg/tl-debian:latest
-## thedcg/tl-debian:stable
-## thedcg/tl-debian:testing
-## thedcg/tl-debian:unstable
+## thedcg/tl-debian
+### latest
+### stable
+### testing
+### unstable
