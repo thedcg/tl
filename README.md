@@ -1,12 +1,12 @@
 # thedcg/tl
 
-## thedcg/tl-ubuntu
+## thedcg/pandoc-ubuntu
 ### devel
 ### latest
 ### 16.10
 ### 14.04
 
-## thedcg/tl-debian
+## thedcg/pandoc-debian
 ### latest
 ### stable
 ### testing
