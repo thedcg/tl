@@ -27,6 +27,9 @@ RUN date --iso-8601=ns\
 	texlive-fonts-recommended\
 	texlive-fonts-extra\
 	texlive-metapost\
+	texlive-bibtex-extra\
+	texlive-publishers\
+	biber\
 	asymptote\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
