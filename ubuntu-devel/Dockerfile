@@ -25,6 +25,7 @@ RUN date --iso-8601=ns\
 	texlive-lang-cjk\
 	texlive-lang-polish\
 	texlive-latex-extra\
+	texlive-pictures\
 	texlive-science\
 	texlive-fonts-recommended\
 	texlive-fonts-extra\
