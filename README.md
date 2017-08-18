@@ -2,8 +2,9 @@
 
 ## thedcg/tl-ubuntu
 ### devel
+### rolling
 ### latest
-### 16.10
+### 16.10 (deprecated)
 ### 14.04
 
 ## thedcg/tl-debian
