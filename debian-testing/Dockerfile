@@ -34,6 +34,7 @@ RUN date --iso-8601=ns\
 	texlive-publishers\
 	biber\
 	asymptote\
+	gnuplot\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
  && kanji-config-updmap-sys ipaex\
