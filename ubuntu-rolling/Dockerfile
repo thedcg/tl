@@ -10,11 +10,15 @@ FROM ubuntu:rolling
 # 管理者
 MAINTAINER Lemures Lemniscati <lemures.lemniscati@gmail.com>
 
+# Timezone
+ENV TZ=Asia/Tokyo
+
 # アップデート
 RUN date --iso-8601=ns\
  && apt-get update\
  && apt-get -y upgrade\
- && apt-get -y install\
+ && DEBIAN_FRONTEND=noninteractive\
+    apt-get -y install\
 	make\
 	git\
 	openssh-client\
