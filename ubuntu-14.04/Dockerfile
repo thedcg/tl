@@ -24,6 +24,8 @@ RUN date --iso-8601=ns\
 	git\
 	openssh-client\
 	xz-utils\
+	pandoc\
+	pandoc-citeproc\
 	tex-common\
 	latex-cjk-all\
 	texlive-generic-extra\
