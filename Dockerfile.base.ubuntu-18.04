@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-ubuntu:18.04
+
+# ベース
+FROM ubuntu:18.04
+
