@@ -40,6 +40,8 @@ RUN date --iso-8601=ns\
 	biber\
 	asymptote\
 	gnuplot\
+	poppler-utils\
+	pngcheck\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
  && echo "${TZ}" > /etc/timezone\
