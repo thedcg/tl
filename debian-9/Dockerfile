@@ -29,6 +29,7 @@ RUN date --iso-8601=ns\
 	texlive-generic-extra\
 	texlive-lang-cjk\
 	texlive-lang-polish\
+	texlive-lang-arabic\
 	texlive-latex-extra\
 	texlive-pictures\
 	texlive-science\
