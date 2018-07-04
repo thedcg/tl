@@ -38,6 +38,7 @@ RUN date --iso-8601=ns\
 	asymptote\
 	gnuplot\
 	poppler-utils\
+	qpdf\
 	pngcheck\
 	imagemagick\
  && apt-get clean \
