@@ -40,6 +40,7 @@ RUN date --iso-8601=ns\
 	texlive-metapost\
 	texlive-bibtex-extra\
 	texlive-publishers\
+	fonts-noto-cjk-extra\
 	biber\
 	asymptote\
 	gnuplot\
