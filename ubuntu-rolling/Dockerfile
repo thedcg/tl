@@ -46,6 +46,7 @@ RUN date --iso-8601=ns\
 	poppler-utils\
 	qpdf\
 	pngcheck\
+	qrencode\
 	imagemagick\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
