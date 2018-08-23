@@ -20,6 +20,7 @@ RUN date --iso-8601=ns\
  && DEBIAN_FRONTEND=noninteractive\
     apt-get -y install\
 	tzdata\
+	bc\
 	make\
 	git\
 	openssh-client\
