@@ -20,6 +20,7 @@ RUN date --iso-8601=ns\
  && DEBIAN_FRONTEND=noninteractive\
     apt-get -y install\
 	tzdata\
+	bc\
 	make\
 	git\
 	openssh-client\
@@ -30,7 +31,10 @@ RUN date --iso-8601=ns\
 	latex-cjk-all\
 	texlive-generic-extra\
 	texlive-lang-cjk\
+	texlive-lang-greek\
 	texlive-lang-polish\
+	texlive-lang-arabic\
+	texlive-lang-indic\
 	texlive-latex-extra\
 	texlive-pictures\
 	texlive-science\
@@ -43,8 +47,11 @@ RUN date --iso-8601=ns\
 	asymptote\
 	gnuplot\
 	poppler-utils\
+	qpdf\
 	pngcheck\
+	qrencode\
 	imagemagick\
+	libtiff-tools\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
  && echo "${TZ}" > /etc/timezone\
