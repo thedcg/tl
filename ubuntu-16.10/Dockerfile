@@ -49,6 +49,7 @@ RUN date --iso-8601=ns\
 	pngcheck\
 	qrencode\
 	imagemagick\
+	libtiff-tools\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*\
  && echo "${TZ}" > /etc/timezone\
