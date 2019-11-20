@@ -32,7 +32,7 @@ RUN date --iso-8601=ns\
 	texlive-lang-greek\
 	texlive-lang-polish\
 	texlive-lang-arabic\
-	texlive-lang-indic\
+	texlive-lang-other\
 	texlive-latex-extra\
 	texlive-pictures\
 	texlive-science\
