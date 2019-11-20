@@ -27,7 +27,7 @@ RUN date --iso-8601=ns\
 	xz-utils\
 	tex-common\
 	latex-cjk-all\
-	texlive-generic-extra\
+	texlive-plain-generic\
 	texlive-lang-cjk\
 	texlive-lang-greek\
 	texlive-lang-polish\
