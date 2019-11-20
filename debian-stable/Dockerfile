@@ -34,6 +34,7 @@ RUN date --iso-8601=ns\
 	texlive-lang-arabic\
 	texlive-lang-indic\
 	texlive-latex-extra\
+	texlive-luatex\
 	texlive-pictures\
 	texlive-science\
 	texlive-fonts-recommended\
