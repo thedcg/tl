@@ -60,7 +60,10 @@ RUN date --iso-8601=ns\
  && mktexlsr \
  && kanji-config-updmap-sys ipaex\
  && luaotfload-tool --update \
- && date --iso-8601=ns\
+ && date --iso-8601=ns
+
+# フォントキャッシュを生成
+RUN date --iso-8601=ns\
  && cd /tmp \
  && touch tmplualatex.tex \
  && echo '\\documentclass[a4paper]{ltjsarticle}' >> tmplualatex.tex \
