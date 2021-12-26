@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-ubuntu:22.04
+
+# ベース
+FROM ubuntu:22.04
+
