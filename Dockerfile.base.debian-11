@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-debian:11
+
+# ベース
+FROM debian:11
+
