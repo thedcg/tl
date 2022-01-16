@@ -4,6 +4,8 @@
 # ベース
 FROM debian:9
 
+RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list" ]
+
 ################################
 # Dockerfile.common
 
