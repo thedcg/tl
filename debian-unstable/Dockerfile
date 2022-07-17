@@ -24,6 +24,7 @@ RUN date --iso-8601=ns\
 	make\
 	git\
 	openssh-client\
+	python3-pygments\
 	xz-utils\
 	tex-common\
 	latex-cjk-all\
