@@ -1,8 +1,0 @@
-################################
-# Dockerfile: thedcg/tl-debian:10
-
-# ベース
-FROM debian:10
-
-RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list" ]
-

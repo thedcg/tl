@@ -1,6 +1,0 @@
-################################
-# Dockerfile: thedcg/tl-ubuntu:16.04
-
-# ベース
-FROM ubuntu:16.04
-
