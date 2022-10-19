@@ -1,12 +1,12 @@
-# thedcg/tl
+# thedcg/ttf-mscorefonts
 
-## thedcg/tl-ubuntu
+## thedcg/ttf-mscorefonts-ubuntu
 ### 20.04
 ### 22.04
 ### latest
 ### devel
 
-## thedcg/tl-debian
+## thedcg/ttf-mscorefonts-debian
 ### 11
 ### latest
 ### unstable

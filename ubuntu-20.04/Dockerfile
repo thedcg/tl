@@ -1,7 +1,7 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:20.04
+# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:20.04
 
-# ベース
+# Base
 FROM ubuntu:20.04
 
 ################################

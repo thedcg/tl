@@ -1,7 +1,7 @@
 ################################
-# Dockerfile: thedcg/tl-debian:11
+# Dockerfile: thedcg/ttf-mscorefonts-debian:11
 
-# ベース
+# Base
 FROM debian:11
 
 RUN [ "/bin/sed", "-i", "-e", "s/ main$/ main contrib/", "/etc/apt/sources.list" ]

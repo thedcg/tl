@@ -1,7 +1,7 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:devel
+# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:devel
 
-# ベース
+# Base
 FROM ubuntu:devel
 
 ################################

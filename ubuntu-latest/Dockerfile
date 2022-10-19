@@ -1,7 +1,7 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:latest
+# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:latest
 
-# ベース
+# Base
 FROM ubuntu:latest
 
 ################################

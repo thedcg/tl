@@ -1,7 +1,7 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:22.04
+# Dockerfile: thedcg/ttf-mscorefonts-ubuntu:22.04
 
-# ベース
+# Base
 FROM ubuntu:22.04
 
 RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true \
