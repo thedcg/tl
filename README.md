@@ -1,15 +1,12 @@
 # thedcg/tl
 
 ## thedcg/tl-ubuntu
-### devel
-### latest
-### 22.04
 ### 20.04
-### 18.04
-### 16.04
+### 22.04
+### latest
+### devel
 
 ## thedcg/tl-debian
-### unstable
-### latest
 ### 11
-### 10
+### latest
+### unstable

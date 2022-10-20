@@ -1,6 +1,0 @@
-################################
-# Dockerfile: thedcg/tl-debian:10
-
-# ベース
-FROM debian:10
-

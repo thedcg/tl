@@ -1,6 +1,0 @@
-################################
-# Dockerfile: thedcg/tl-ubuntu:rolling
-
-# ベース
-FROM ubuntu:rolling
-

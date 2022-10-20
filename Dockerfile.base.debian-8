@@ -1,6 +1,0 @@
-################################
-# Dockerfile: thedcg/tl-debian:8
-
-# ベース
-FROM debian:8
-
