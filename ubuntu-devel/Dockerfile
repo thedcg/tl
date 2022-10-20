@@ -1,19 +1,19 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:devel
+# Dockerfile: thedcg/tl-ubuntu-luatex-noto-cjk:devel
 
-# ベース
-FROM ubuntu:devel
+# Base
+FROM thedcg/ttf-mscorefonts-ubuntu:devel
 
 ################################
 # Dockerfile.common
 
-# 管理者
-MAINTAINER Lemures Lemniscati <lemures.lemniscati@gmail.com>
+# Maintainer
+LABEL org.opencontainers.image.authors="lemures.lemniscati@gmail.com"
 
 # Timezone
 ENV TZ=Asia/Tokyo
 
-# アップデート
+# Update
 RUN date --iso-8601=ns\
  && apt-get update\
  && apt-get -y upgrade\
@@ -63,7 +63,7 @@ RUN date --iso-8601=ns\
  && luaotfload-tool --update \
  && date --iso-8601=ns
 
-# フォントキャッシュを生成
+# Generate font cache
 RUN date --iso-8601=ns\
  && cd /tmp \
  && touch tmplualatex.tex \
@@ -102,4 +102,4 @@ RUN date --iso-8601=ns\
  && cd / \
  && date --iso-8601=ns
 
-# 終了
+# End

@@ -1,6 +1,6 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:latest
+# Dockerfile: thedcg/tl-ubuntu-luatex-noto-cjk:latest
 
-# ベース
-FROM ubuntu:latest
+# Base
+FROM thedcg/ttf-mscorefonts-ubuntu:latest
 

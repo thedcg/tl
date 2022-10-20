@@ -1,6 +1,6 @@
 ################################
-# Dockerfile: thedcg/tl-debian:11
+# Dockerfile: thedcg/tl-debian-luatex-noto-cjk:11
 
-# ベース
-FROM debian:11
+# Base
+FROM thedcg/ttf-mscorefonts-debian:11
 

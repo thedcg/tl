@@ -1,6 +1,6 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu:20.04
+# Dockerfile: thedcg/tl-ubuntu-luatex-noto-cjk:20.04
 
-# ベース
-FROM ubuntu:20.04
+# Base
+FROM thedcg/ttf-mscorefonts-ubuntu:20.04
 
