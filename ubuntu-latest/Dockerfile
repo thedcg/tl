@@ -30,6 +30,7 @@ RUN date --iso-8601=ns\
 	zip\
 	unzip\
 	dos2unix\
+	latexmk\
 	\
 	tzdata\
 	bc\
