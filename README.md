@@ -1,12 +1,12 @@
-# thedcg/tl
+# nubes/tl
 
-## thedcg/tl-ubuntu
+## nubes/tl-ubuntu
 ### 20.04
 ### 22.04
 ### latest
 ### devel
 
-## thedcg/tl-debian
+## nubes/tl-debian
 ### 11
 ### latest
 ### unstable
