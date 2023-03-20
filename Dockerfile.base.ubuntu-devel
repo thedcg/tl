@@ -1,6 +1,6 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu-luatex-noto-cjk:devel
+# Dockerfile: nubes/tl-ubuntu-luatex-noto-cjk:devel
 
 # Base
-FROM thedcg/ttf-mscorefonts-ubuntu:devel
+FROM nubes/ttf-mscorefonts-ubuntu:devel
 

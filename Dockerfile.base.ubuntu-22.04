@@ -1,6 +1,6 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu-luatex-noto-cjk:22.04
+# Dockerfile: nubes/tl-ubuntu-luatex-noto-cjk:22.04
 
 # Base
-FROM thedcg/ttf-mscorefonts-ubuntu:22.04
+FROM nubes/ttf-mscorefonts-ubuntu:22.04
 

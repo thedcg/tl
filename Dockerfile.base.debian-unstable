@@ -1,6 +1,6 @@
 ################################
-# Dockerfile: thedcg/tl-debian-luatex-noto-cjk:unstable
+# Dockerfile: nubes/tl-debian-luatex-noto-cjk:unstable
 
 # Base
-FROM thedcg/ttf-mscorefonts-debian:unstable
+FROM nubes/ttf-mscorefonts-debian:unstable
 
