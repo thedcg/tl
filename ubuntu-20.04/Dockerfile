@@ -1,14 +1,14 @@
 ################################
-# Dockerfile: thedcg/tl-ubuntu-luatex-noto-cjk:20.04
+# Dockerfile: nubes/tl-ubuntu-luatex-noto-cjk:20.04
 
 # Base
-FROM thedcg/ttf-mscorefonts-ubuntu:20.04
+FROM nubes/ttf-mscorefonts-ubuntu:20.04
 
 ################################
 # Dockerfile.common
 
 # Maintainer
-LABEL org.opencontainers.image.authors="lemures.lemniscati@gmail.com"
+LABEL org.opencontainers.image.authors="Gravitates Gaudiales <gaudiales@gmail.com>"
 
 # Timezone
 ENV TZ=Asia/Tokyo

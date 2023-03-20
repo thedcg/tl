@@ -1,14 +1,14 @@
 ################################
-# Dockerfile: thedcg/tl-debian-luatex-noto-cjk:unstable
+# Dockerfile: nubes/tl-debian-luatex-noto-cjk:unstable
 
 # Base
-FROM thedcg/ttf-mscorefonts-debian:unstable
+FROM nubes/ttf-mscorefonts-debian:unstable
 
 ################################
 # Dockerfile.common
 
 # Maintainer
-LABEL org.opencontainers.image.authors="lemures.lemniscati@gmail.com"
+LABEL org.opencontainers.image.authors="Gravitates Gaudiales <gaudiales@gmail.com>"
 
 # Timezone
 ENV TZ=Asia/Tokyo
