@@ -14,6 +14,7 @@ TAGS = \
        ubuntu-latest \
        ubuntu-devel \
        debian-11 \
+       debian-12 \
        debian-latest \
        debian-unstable \
 
