@@ -11,6 +11,7 @@ all: dockerfiles
 TAGS = \
        ubuntu-20.04 \
        ubuntu-22.04 \
+       ubuntu-24.04 \
        ubuntu-latest \
        ubuntu-devel \
        debian-11 \
