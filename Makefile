@@ -13,6 +13,7 @@ TAGS = \
        ubuntu-22.04 \
        ubuntu-24.04 \
        ubuntu-latest \
+       ubuntu-rolling \
        ubuntu-devel \
        debian-11 \
        debian-12 \

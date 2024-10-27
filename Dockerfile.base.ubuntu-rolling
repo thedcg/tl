@@ -1,0 +1,6 @@
+################################
+# Dockerfile: nubes/tl-ubuntu-luatex-noto-cjk:rolling
+
+# Base
+FROM nubes/ttf-mscorefonts-ubuntu:rolling
+
