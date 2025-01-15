@@ -68,12 +68,10 @@ RUN date --iso-8601=ns\
 	libtiff-tools\
 	img2pdf\
  && apt-get clean \
- && rm -rf /var/lib/apt/lists/*\
  && echo "${TZ}" > /etc/timezone\
  && ln -sf "/usr/share/zoneinfo/${TZ}" /etc/localtime\
  && dpkg-reconfigure --frontend noninteractive tzdata\
  && mktexlsr \
- && kanji-config-updmap-sys ipaex\
  && luaotfload-tool --update \
  && date --iso-8601=ns
 
