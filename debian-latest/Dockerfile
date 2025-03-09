@@ -36,6 +36,7 @@ RUN date --iso-8601=ns\
 	bc\
 	make\
 	git\
+	jq\
 	openssh-client\
 	python3-pygments\
 	xz-utils\
