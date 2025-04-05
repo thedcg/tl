@@ -68,6 +68,7 @@ RUN date --iso-8601=ns\
 	imagemagick\
 	libtiff-tools\
 	img2pdf\
+	python3-matplotlib\
 	python3-rdkit\
  && apt-get clean \
  && echo "${TZ}" > /etc/timezone\
