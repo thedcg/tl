@@ -64,7 +64,11 @@ RUN date --iso-8601=ns\
 	img2pdf\
 	python3-matplotlib\
 	python3-rdkit\
+	ruby\
+	ruby-dev\
+	gcc\
  && apt-get clean \
+ && gem install --no-document review \
  && echo "${TZ}" > /etc/timezone\
  && ln -sf "/usr/share/zoneinfo/${TZ}" /etc/localtime\
  && dpkg-reconfigure --frontend noninteractive tzdata\
